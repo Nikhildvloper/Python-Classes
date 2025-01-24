@@ -68,7 +68,8 @@
             display: inline-block;
         }
 
-        .copy-link-btn {
+        .copy-link-btn,
+        .download-notes-btn {
             margin-top: 1rem;
             background: #ffe052;
             color: #333;
@@ -79,9 +80,12 @@
             font-size: 1rem;
             font-weight: bold;
             transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
         }
 
-        .copy-link-btn:hover {
+        .copy-link-btn:hover,
+        .download-notes-btn:hover {
             background: #ffcc33;
         }
 
@@ -163,6 +167,7 @@
                 <img src="https://img.youtube.com/vi/UrsmFxEIp5k/maxresdefault.jpg" alt="Code with Harry Python Course Thumbnail">
                 <a href="https://youtu.be/UrsmFxEIp5k" target="_blank">Watch on YouTube</a>
                 <button class="copy-link-btn" onclick="copyLink()">Copy Video Link</button>
+                <a href="The-Ultimate-Python-Course.pdf" class="download-notes-btn" download>Download Notes</a>
             </div>
         </div>
 
